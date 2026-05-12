@@ -9,7 +9,7 @@ A customizable, searchable, lightweight React multi-select dropdown component wi
 This repository contains two folders:
 
 ```
-npm-dropdown/
+react-multi-select-dropdown/
 ├── multi-select-dropdown/    # 📦 NPM Package Source Code
 │   ├── src/                 # TypeScript source files
 │   ├── dist/                # Built files (after npm run build)
