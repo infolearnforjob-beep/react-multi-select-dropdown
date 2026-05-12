@@ -1,0 +1,76 @@
+{
+  "name": "@learnforjob/react-multi-select-dropdown",
+  "version": "1.0.6",
+  "description": "A customizable, searchable, lightweight React multi-select dropdown with async loading, checkbox support, keyboard navigation, virtualization, and TypeScript support.",
+  "author": "LearnForJob",
+  "license": "MIT",
+  "homepage": "https://learnforjob.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infolearnforjob-beep/react-multi-select-dropdown"
+  },
+  "bugs": {
+    "url": "https://github.com/infolearnforjob-beep/react-multi-select-dropdown/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": [
+    "*.css",
+    "*.scss"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.cjs",
+    "dev": "rollup -c rollup.config.cjs -w",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "multi-select",
+    "multiselect",
+    "dropdown",
+    "react-dropdown",
+    "checkbox",
+    "searchable-dropdown",
+    "async-select",
+    "virtualized-list",
+    "typescript",
+    "ui-component",
+    "frontend",
+    "learnforjob"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "postcss": "^8.5.14",
+    "rollup": "^3.20.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.99.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.0.0"
+  }
+}
